@@ -1,0 +1,111 @@
+*{
+    font-family:  Calibri, ;
+  
+}
+
+h1{
+    color: #b92b27;
+}
+
+h3{
+    color: #b92b27;
+}
+
+#login{
+    background-color: #f2f2f2;
+}
+
+#signup{
+ background-color: #b92b27;
+ color: white;
+}
+
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+
+/* Descendant Selecter */
+
+.Post a {
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a {
+    color: hotpink;
+}
+
+/* Adjecent Sibling Combinator */
+
+p + h3{
+    text-decoration: underline;
+
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* Child Combinator */
+
+div > input {
+    background-color: lightpink;
+}
+
+/* Attribute Selector */
+
+input [type="text"] {
+    color: grey;
+}
+
+input [type="password"] { 
+    color: green;
+}
+
+/* Pseudo Class = A keyword added to a Selector that specifies a special state of the selected element */
+
+/* Property 1 - Hover */
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+/* Property 2 - Active */
+button:active{
+    background-color: hotpink;
+    color:black
+
+}
+
+/* Property 3 - Checked */
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+/* Property 4 -nth-of-type */
+
+div:nth-of-type(2n) {
+    background-color: blanchedalmond;
+
+}
+
+/* Pseudo Elements - A keyword added to a selector that lets you style a specific part of the selected element */
+h1::first-letter {
+    color: black;
+}
+
+p::first-line{
+    color: blue;
+}
+
+p::selection {
+    background-color: rgb(199, 192, 58);
+}

@@ -1,0 +1,64 @@
+div {
+     height: 150px;
+     width: 500px;
+     background-color: pink;
+     border-width: 5px;
+     border-style: solid;
+     border-color: black;
+}
+
+h1 {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: blue;
+}
+
+/* We can also write this code in a more compact way using the shorthand property for border. Here is how you can do it: */
+
+div{
+    border:2px solid blue;
+
+}
+
+/* And the sequence will be Width|style|color */
+
+div{
+    border-left-color: blue;
+    border-right-color: yellowgreen ;
+    border-top-color: black;
+    border-top-style: dashed;
+    border-bottom-color: red;
+    border-bottom-style: dashed;
+}
+
+div{
+    border-color: black;
+    border-radius: 10px;
+}
+
+div{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+}
+
+button{
+    border: 2px solid brown;
+    border-radius: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius:25px ;
+    background-color: yellow;
+
+}
+
+/* we can also put the padding to the content by using the padding shorthand */
+
+/* #1. For all 4 slides -padding: 50px;
+#2. top & bottom | left & right - padding:1px 2px;
+#3. top|left &right | bottom - padding: 1px 2px 3px;
+#4. top| right|bottom|left (clock wise) - padding: 1px 2px 3px 4px; */
+
+div {
+ margin: 10px 20px 30px;
+}
